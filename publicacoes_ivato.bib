@@ -305,6 +305,8 @@
   Timestamp                = {2017.09.01}
 }
 
+
+
 @InProceedings{nm-uarapuslufg-2013,
   Title                    = {Uma Análise Restrospectiva das Ações em Prol do Uso de Software Livre
  na UFG},
@@ -689,25 +691,31 @@ http://www.thinkmind.org/index.php?view=article&articleid=eknow_2015_5_30_60124}
   url       = {https://repositorio.bc.ufg.br/tede/handle/tede/10309},
 }
 
-@InProceedings{quaresma_segmentation_2020,
-  author     = {Inuzuka, Marcelo A. and Rocha, Acquila S. and Nascimento, Hugo A. D.},
-  title      = {Segmentation of {Words} {Written} in the {Latin} {Alphabet}: {A} {Systematic} {Review}},
-  booktitle  = {Computational {Processing} of the {Portuguese} {Language} ({PROPOR 2020})},
-  year       = {2020},
-  editor     = {Quaresma, Paulo and Vieira, Renata and Aluísio, Sandra and Moniz, Helena and Batista, Fernando and Gonçalves, Teresa},
-  volume     = {12037},
-  pages      = {291--302},
-  address    = {Evora, Portugal},
-  month      = {March/02-04/2020},
-  publisher  = {Springer International Publishing},
-  note       = {Series Title: Lecture Notes in Computer Science. March/02-04/2020. https://propor.di.uevora.pt/ Qualis B3 (2016)},
+@inproceedings{quaresma_segmentation_2020,
+  author    = {Marcelo A. Inuzuka and
+               Acquila S. Rocha and
+               Hugo A. D. Nascimento},
+  editor    = {Paulo Quaresma and
+               Renata Vieira and
+               Sandra M. Alu{\'{\i}}sio and
+               Helena Moniz and
+               Fernando Batista and
+               Teresa Gon{\c{c}}alves},
+  title     = {Segmentation of Words Written in the Latin Alphabet: {A} Systematic
+               Review},
+  booktitle = {Computational Processing of the Portuguese Language - 14th International
+               Conference, {PROPOR} 2020, Evora, Portugal, March 2-4, 2020, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12037},
+  pages     = {291--302},
+  publisher = {Springer},
   abstract   = {In this systematic literature review (SLR) we summarize studies that address the word segmentation problem (WSP) for Latin-based languages. We adopted the protocol of Kitchenham et al. for the review. The search in academic repositories found 771 works, from which 89 were selected. After a quality assessment step, 69 papers were chosen for data extraction. The results point to a divergence in terminology of this problem, two of which are more relevant, having specific techniques, corpus and application context: compound splitting and identifier splitting. We analyze the state of the art of each context, pointing out differences and similarities in approaches. We hope that these results can serve as a guide for future investigations and advancement of WSP.},
-  doi        = {10.1007/978-3-030-41505-1_28},
-  isbn       = {978-3-030-41504-4 978-3-030-41505-1},
-  language   = {en},
-  shorttitle = {Segmentation of {Words} {Written} in the {Latin} {Alphabet}},
-  url        = {http://link.springer.com/10.1007/978-3-030-41505-1_28},
-  urldate    = {2020-03-24},
+  year      = {2020},
+  url       = {https://doi.org/10.1007/978-3-030-41505-1\_28},
+  doi       = {10.1007/978-3-030-41505-1\_28},
+  timestamp = {Tue, 03 Mar 2020 09:40:18 +0100},
+  biburl    = {https://dblp.org/rec/conf/propor/InuzukaRN20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
 @InProceedings{10.1007/978-3-030-41050-6_11,
@@ -746,24 +754,29 @@ http://www.thinkmind.org/index.php?view=article&articleid=eknow_2015_5_30_60124}
   url       = {https://doi.org/10.1007/978-3-030-52485-2_16},
 }
 
-@InProceedings{10.1007/978-3-030-61377-8_33,
-  author       = {Rodrigues, Ruan Chaves and Rocha, Acquila Santos and Inuzuka, Marcelo Akira and do Nascimento, Hugo Alexandre Dantas},
-  title        = {Domain Adaptation of Transformers for English Word Segmentation},
-  booktitle    = {Intelligent Systems. Brazilian Conference on Intelligent Systems (BRACIS 2020). Lecture Notes in Computer Science, vol 12319.},
-  year         = {2020},
-  editor       = {Cerri, Ricardo and Prati, Ronaldo C.},
-  pages        = {483--496},
-  address      = {Porto Alegre, RS, Brasil. Online},
-  month        = {October},
-  organization = {Universidade Federal do Rio Grande (FURG)},
-  publisher    = {Springer International Publishing},
-  note         = {October, 20-23, 2020. Site: http://www2.sbc.org.br/bracis2020/ Qualis B2 (2016)},
+@inproceedings{DBLP:conf/bracis/RodriguesRIN20,
+  author    = {Ruan Chaves Rodrigues and
+               Acquila Santos Rocha and
+               Marcelo Akira Inuzuka and
+               Hugo Alexandre Dantas do Nascimento},
+  editor    = {Ricardo Cerri and
+               Ronaldo C. Prati},
+  title     = {Domain Adaptation of Transformers for English Word Segmentation},
+  booktitle = {Intelligent Systems - 9th Brazilian Conference, {BRACIS} 2020, Rio
+               Grande, Brazil, October 20-23, 2020, Proceedings, Part {I}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12319},
+  pages     = {483--496},
+  publisher = {Springer},
+  year      = {2020},
   abstract     = {Word segmentation can contribute to improve the results of natural language processing tasks on several problem domains, including social media sentiment analysis, source code summarization and neural machine translation. Taking the English language as a case study, we fine-tune a Transformer architecture which has been trained through the Pre-trained Distillation (PD) algorithm, while comparing it to previous experiments with recurrent neural networks. We organize datasets and resources from multiple application domains under a unified format, and demonstrate that our proposed architecture has competitive performance and superior cross-domain generalization in comparison with previous approaches for word segmentation in Western languages.},
-  doi          = {10.1007/978-3-030-61377-8_33},
-  isbn         = {978-3-030-61377-8},
-  keywords     = {Word segmentation; Transformer architecture; Knowledge distillation},
-  url          = {https://doi.org/10.1007/978-3-030-61377-8_33},
+  url       = {https://doi.org/10.1007/978-3-030-61377-8\_33},
+  doi       = {10.1007/978-3-030-61377-8\_33},
+  timestamp = {Wed, 21 Oct 2020 16:49:39 +0200},
+  biburl    = {https://dblp.org/rec/conf/bracis/RodriguesRIN20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 
 @InProceedings{eniac,
   author       = {Rodrigo R. Filho and Elismênnia Oliveira and Jordão Nunes and Marcelo Inuzuka and Hugo do Nascimento},
