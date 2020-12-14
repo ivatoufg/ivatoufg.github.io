@@ -6,4 +6,4 @@ Below you can find an (hopefully) updated list of all publications from the memb
 
 ---
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fivatoufg%2Fivatoufg.github.io%2Fmain%2Fpublicacoes_ivato.bib&jsonp=1&filter=citekey:deSouzaAlencar2019"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Fivatoufg%2Fivatoufg.github.io%2Fmain%2Fpublicacoes_ivato.bib&jsonp=1&filter=authors:Felix"></script>
